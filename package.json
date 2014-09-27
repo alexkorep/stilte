@@ -1,0 +1,11 @@
+{
+    "name": "stilte",
+    "description": "P2P social blog",
+    "version": "0.1.0",
+    "author": "Alexey Korepanov",
+    "dependencies": {
+      "bittorrent-dht": "*"
+    },
+    "devDependencies": {}
+}
+
