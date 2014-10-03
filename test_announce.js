@@ -3,6 +3,10 @@ var DHT = require('bittorrent-dht')
 var dht = new DHT();
 console.log('Starting...');
 
+dht.listen(20000, function () {
+  console.log('now listening')
+})
+
 dht.on('ready', function () {
     console.log('Ready, running lookup...');
 
